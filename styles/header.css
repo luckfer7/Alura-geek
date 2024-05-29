@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zen+Maru+Gothic&display=swap');
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9.6vh;
+    background-color: #5D04D9;
+    padding: 2vh;
+}
+
+.cabecalho__img {
+    width: 9.75rem;
+    height: 3.625rem;
+}
+
+.cabecalho__titulo, span {
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    color: rgba(229, 229, 229, 1);
+    /* width: 236px;
+    height: 51px; */
+    text-align: center;
+}

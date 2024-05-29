@@ -1,0 +1,223 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    padding: 2%;
+    gap: 2%;
+}
+
+.titulo__produtos {
+    width: 36.125rem;
+    height: 1.5rem;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.produtos__container {
+    display: flex;
+    width: 90%;
+    height: 60.688rem;
+    gap: 2%;
+    padding: 3%;
+    background-color: rgba(255, 255, 255, 1); 
+    overflow: scroll;
+}
+
+.cards__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    gap: 1%;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 25%;
+    height: 25%;
+    background-color: rgba(93, 4, 217, 1);
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.stormtrooper__card {
+    width: 90%;
+    height: 50%;
+    border-radius: 5px;
+    border: 3px solid;
+}
+
+.img__nome {
+    width: 90%;
+    height: 10%;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.preco-e-icone {
+    display: flex;
+    align-items: center;
+}
+
+.preco {
+    width: 8.875rem;
+    height: 1.313rem;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.icone {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.card__two {
+    width: 25%;
+    height: 25%;
+    background-color: rgba(93, 4, 217, 1);
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 10px;
+    gap: 10px;
+}
+
+.game-box__card {
+    width: 90%;
+    height: 50%;
+    border-radius: 5px;
+    border: 3px solid;
+}
+
+.game-box__img__nome {
+    width: 90%;
+    height: 15%;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.game-box--preco-e-icone {
+    margin-top: 5px;
+}
+
+.game-box__preco {
+    width: 8.875rem;
+    height: 1.313rem;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.container__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 50%;
+    padding: 2%;
+    gap: 2.5rem;
+}
+
+.formulario__titulo {
+    width: 24.5rem;
+    height: 3rem;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.formulario__campos {
+    width: 24.5rem;
+    height: 3.625rem;
+    border: 3px solid rgba(3, 49, 140, 1);
+    border-radius: 70px;
+    
+}
+
+.formulario__campos::placeholder {
+    padding-left: 10px;
+    width: 203px;
+    height: 39px;
+    font-family: "IBM Plex Mono";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(3, 49, 140, 1);
+
+}
+
+.formulario__botoes {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 65px 0 65px;
+    gap: 13px;
+}
+
+.botoes--guardar {
+    width: 188px;
+    height: 55px;
+    border-radius: 15px;
+    font-family: "IBM Plex Mono";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: rgba(3, 49, 140, 1);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    cursor: pointer;
+}
+
+.botoes--limpar {
+    width: 188px;
+    height: 55px;
+    border-radius: 15px;
+    font-family: "IBM Plex Mono";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(3, 49, 140, 1);
+    border: 2px solid;
+    cursor: pointer;
+}

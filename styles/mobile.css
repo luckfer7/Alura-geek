@@ -1,0 +1,35 @@
+@media screen and (max-width: 430px) {
+
+    .cabecalho {
+        width: 120%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+        margin-left: 2rem;
+    }
+
+    .container__form {
+        width: 120%;
+        gap: 1rem;
+    }
+
+    .formulario {
+        gap: 1rem;
+    }
+
+    .formulario__campos{
+        height: 2.5rem;
+    }
+
+    section {
+        width: 120%;
+        
+    }
+
+    .rodape {
+        width: 100%;
+    }
+}
